@@ -24,7 +24,13 @@ For the project proposal, please write a short abstact addressing the questions 
 - Why is it interesting? (personally, culturally, politically, other)
 - List three papers / art projects that are references for this work.
 
-Our concept is to take 
+Our goal is to reproduce audio samples with changes in style across decades and genre. We will be using GANS and techniques as described [here](https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910). We plan to use training data from MIR and [this song dataset](http://millionsongdataset.com/). We will output audio samples of similar lengths with the new features applied to them. This will then be described and presented in a report of our results. Some challenges that we think will arise are using some of the tools due to our unfailiarity and then applying them across genre and decade might present unexpected problems. We have discussed style transfer and generative techniques in lecture, here we will apply to audio data and see if we can change the decade that the music came from. This is interesting because we can see how songs can be reimagined in a different time or genre and look at how fundamentally different music varies. 
+
+Source 1: [Tonenet music transfer](https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910)
+Source 2: [Musnet](https://openai.com/blog/musenet/)
+Source 3: [Fusing Music genres](https://ieeexplore.ieee.org/abstract/document/8215561)
+Source 4: [Facebook AI research](https://arxiv.org/pdf/1805.07848.pdf)
+Source 5: [Google Magenta](https://magenta.tensorflow.org)
 
 ## Data and Model
 
