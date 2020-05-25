@@ -3,11 +3,10 @@
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Luis Diaz, lmd003@ucsd.edu
+- Catherine Hou, cahou@ucsd.edu
+- Prithviraj Pahwa, pspahwa@ucsd.edu
+- David Thierry, dthierry@ucsd.edu
 
 ## Abstract
 
@@ -24,6 +23,8 @@ For the project proposal, please write a short abstact addressing the questions 
 - How are you expanding on topics we have covered in class? 
 - Why is it interesting? (personally, culturally, politically, other)
 - List three papers / art projects that are references for this work.
+
+Our concept is to take 
 
 ## Data and Model
 
