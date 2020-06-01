@@ -1,4 +1,4 @@
-# Music Style Transfer
+# Accent Style Transfer
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
@@ -24,17 +24,22 @@ For the project proposal, please write a short abstact addressing the questions 
 - Why is it interesting? (personally, culturally, politically, other)
 - List three papers / art projects that are references for this work.
 
-Our goal is to reproduce audio samples with changes in style across decades and genre. We will be using GANS and techniques as described [here](https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910). We plan to use training data from MIR and [this song dataset](http://millionsongdataset.com/). We will output audio samples of similar lengths with the new features applied to them. This will then be described and presented in a report of our results. Some challenges that we think will arise are using some of the tools due to our unfailiarity and then applying them across genre and decade might present unexpected problems. We have discussed style transfer and generative techniques in lecture, here we will apply to audio data and see if we can change the decade that the music came from. This is interesting because we can see how songs can be reimagined in a different time or genre and look at how fundamentally different music varies. 
+Our goal is to take an audio voive sample and apply a style transfer that can apply an accent to the voice. Some previous work in accent style transfer has been researched using [Neural Networks](https://pdfs.semanticscholar.org/e362/207b67aa1f6dbf5ea2d9e01edeeda70ba15e.pdf). For our project we plan to try and transfer accents using GANS, possibly cycle GANS with some techniques described in this [paper](https://arxiv.org/ftp/arxiv/papers/1904/1904.09407.pdf). We plan to use training data from [this kaggle dataset](https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning) of English Multi-Speakers and from [this](https://www.kaggle.com/rtatman/speech-accent-archive) speech accent archive. 
 
-Source 1: [Tonenet music transfer](https://towardsdatascience.com/tonenet-a-musical-style-transfer-c0a18903c910)
+We will output audio samples of similar lengths with the new accents applied to them. This will then be described and presented in a report of our results with potential for a website where people can apply audio to add an accent to. Some challenges that we think will arise are using some of the tools due to our unfailiarity and then applying accents might have unexpected results especially in our short time frame. We have discussed style transfer and generative techniques in lecture, here we will apply to audio data and see if we can change accents of the speaker. This is interesting because we can see how voices can be reimagined in a different speaker voice.
 
-Source 2: [Musnet](https://openai.com/blog/musenet/)
+Source 1: [Accent Conversion Using Artificial Neural Networks
+](https://pdfs.semanticscholar.org/e362/207b67aa1f6dbf5ea2d9e01edeeda70ba15e.pdf)
 
-Source 3: [Fusing Music genres](https://ieeexplore.ieee.org/abstract/document/8215561)
+Source 2: [Self-imitating Feedback Generation Using GAN
+for Computer-Assisted Pronunciation Training](https://arxiv.org/ftp/arxiv/papers/1904/1904.09407.pdf)
 
-Source 4: [Facebook AI research](https://arxiv.org/pdf/1805.07848.pdf)
+Source 3: [Accent Classification and Neural Accent Transfer](http://cs230.stanford.edu/files_winter_2018/projects/6939642.pdf)
 
-Source 5: [Google Magenta](https://magenta.tensorflow.org)
+Source 4: [Audio texture synthesis and style transfer](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/)
+
+Source 5: [An open source implementation of Neural Voice Cloning with Few Samples](https://sforaidl.github.io/Neural-Voice-Cloning-With-Few-Samples/)
+
 
 ## Data and Model
 
