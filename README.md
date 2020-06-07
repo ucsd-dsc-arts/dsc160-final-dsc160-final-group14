@@ -88,6 +88,18 @@ This section will link to the various code for your project (stored within this 
 
 Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
+### Rhythm and Pitch Transfer
+#### Processing
+[Audio Concatenation](mellotron/audio-concatenation.ipynb) Because the model is used on subsets of audio, this notebook strings all the synthesized audio clips together into one wav file.
+[Audio Trimming](mellotron/audio-trimming.ipynb) This notebook separates the wav file into subsets to make processing easier.
+### Eminem's Lose Yourself
+[Eminem's Lose Yourself Inference](mellotron/inference-eminem.ipynb) This notebook loads the pre-trained libritts model, filelists, 
+dataholders, speakers and performs the transfer on one of the speakers from the dataset.
+### Russian Accent
+[Russian Inference](inference-russian6.ipynb) This notebooks does the same but for a [russian accent](mellotron/custom_data/russian6.wav) on one of the speakers from the dataset.
+### Spanish Accent
+[Russian Inference](inference-russian6.ipynb) This notebooks does the same but for a [spanish accent](mellotron/custom_data/spanish100.wav) on one of the speakers from the dataset. 
+
 ## Results
 
 (30 points) 
