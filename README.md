@@ -96,9 +96,9 @@ Link each of these items to your .ipynb or .py files within this seection, and p
 [Eminem's Lose Yourself Inference](mellotron/inference-eminem.ipynb) This notebook loads the pre-trained libritts model, filelists, 
 dataholders, speakers and performs the transfer on one of the speakers from the dataset.
 #### Russian Accent
-[Russian Inference](inference-russian6.ipynb) This notebooks does the same but for a [russian accent](mellotron/custom_data/russian6.wav) on one of the speakers from the dataset.
+[Russian Inference](mellotron/inference-russian6.ipynb) This notebooks does the same but for a [russian accent](mellotron/custom_data/russian6.wav) on one of the speakers from the dataset.
 #### Spanish Accent
-[Russian Inference](inference-russian6.ipynb) This notebooks does the same but for a [spanish accent](mellotron/custom_data/spanish100.wav) on one of the speakers from the dataset. 
+[Spanish Inference](mellotron/inference-spanish100.ipynb) This notebooks does the same but for a [spanish accent](mellotron/custom_data/spanish100.wav) on one of the speakers from the dataset. 
 
 ## Results
 
