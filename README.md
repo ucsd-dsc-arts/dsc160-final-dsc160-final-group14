@@ -51,6 +51,21 @@ In the final submission, this section will describe both the data you use for th
   - [Title of Paper with Link](). 
 - Training data. Short description of training data including bibliographic info. [link to data]().
 
+### Data 
+
+The English Multi-speaker Corpus for Voice Cloning
+- This dataset includes speech data from 109 native English speakers with varying types of vocal accents.  Each of the speakers in this data set was asked to read out 400 sentences where each sentence is from a set of sentences designed to maximize the unique contextual and phonetic of the English language. The speech data in this dataset was recorded with “an omnidirectional head-mounted microphone, 96kHz sampling frequency at 24 bits, and in a Hemi-anechoic chamber of the University of Edinburgh.”
+- https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
+
+The Speech Accent Archive
+- This dataset includes 2140 unique speech samples of the same passage. The individuals who participated and performed the speech recordings come from a total of 177 countries. Of these 174 countries, there are 214 unique native languages encompassed within the countries. It was not mentioned how the audio for each unique sample was recorded, unlike the English Multi-speaker Corpus for Voice Cloning dataset we previously mentioned. 
+- https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning 
+
+### Model 
+
+TODO
+
+
 ## Code
 
 (20 points)
