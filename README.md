@@ -100,7 +100,7 @@ This section will link to the various code for your project (stored within this 
 
 Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
-Because we used [NVIDIA's mellotron](https://github.com/NVIDIA/mellotron) as our code base, we followed the steps on their [README](https://github.com/NVIDIA/mellotron/blob/master/README.md) to set up the pre-trained model. In otder to run the notebooks  the following code should be run ('git clone https://github.com/NVIDIA/waveglow.git') to download the waveglow files. To set up the Mellotron [this Libritts](https://drive.google.com/open?id=1ZesPPyRRKloltRIuRnGZ2LIUEuMSVjkI) file and this [Waveglow file](https://drive.google.com/open?id=1okuUstGoBe_qZ4qUEF8CcwEugHP7GM_b) had to be downloaded and placed in a new directory called 'models'. Data that we used had to be manually downloaded from kaggle or the other sources and potentially changed from mp3 to wav files but we placed those files in our [custom_data](https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group14/tree/master/mellotron/custom_data) directory. 
+Because we used [NVIDIA's mellotron](https://github.com/NVIDIA/mellotron) as our code base, we followed the steps on their [README](https://github.com/NVIDIA/mellotron/blob/master/README.md) to set up the pre-trained model. In otder to run the notebooks  the following code should be run ('git clone https://github.com/NVIDIA/waveglow.git') to download the [Waveglow](https://github.com/NVIDIA/waveglow/tree/2fd4e63e2918012f55eac2c8a8e75622a39741be) files. To set up the Mellotron [this Libritts](https://drive.google.com/open?id=1ZesPPyRRKloltRIuRnGZ2LIUEuMSVjkI) file and this [Waveglow file](https://drive.google.com/open?id=1okuUstGoBe_qZ4qUEF8CcwEugHP7GM_b) had to be downloaded and placed in a new directory called 'models'. Data that we used had to be manually downloaded from kaggle or the other sources and potentially changed from mp3 to wav files but we placed those files in our [custom_data](https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group14/tree/master/mellotron/custom_data) directory. 
 
 ### Rhythm and Pitch Transfer
 #### Processing
@@ -173,6 +173,8 @@ All references to papers, techniques, previous work, repositories you used shoul
 - An open source implementation of Neural Voice Cloning with Few Samples: https://sforaidl.github.io/Neural-Voice-Cloning-With-Few-Samples/
 
 - NVIDIA's Mellotron: https://github.com/NVIDIA/mellotron
+
+- NVIDIA's Waveglow https://github.com/NVIDIA/waveglow/tree/2fd4e63e2918012f55eac2c8a8e75622a39741be
 
 - Mellotron- Multispeaker expressive voice synthesis by conditioning on rhythm, pitch and global style tokens: https://arxiv.org/abs/1910.11997
 
