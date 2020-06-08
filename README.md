@@ -9,7 +9,7 @@ Project Team Members:
 - David Thierry, dthierry@ucsd.edu
 
 
-Project Results are also displayed on __[This Website]__(https://sway.office.com/DjvzxcODoEgnft4v?ref=Link)
+##### Project Results are also displayed on [This Website](https://sway.office.com/DjvzxcODoEgnft4v?ref=Link)
 
 ## Abstract
 
@@ -91,7 +91,7 @@ This section should summarize your results and will embed links to documentation
 - audio files (`.wav`, `.mp3`)
 - written text as `.pdf`
 
-To view results in a better format where you can play audio, please visit __[this Website]__(https://sway.office.com/DjvzxcODoEgnft4v?ref=Link) where we present our findings. 
+###### To view results in a better format where you can play audio, please visit [this Website](https://sway.office.com/DjvzxcODoEgnft4v?ref=Link) where we present our findings. 
 
 First we generated audio to Handel's Hallelujah as described in the Mellotron code base with different parameters. In the first cell, there is only 1 voice devoted to each of the 4 parts. In the second cell, there are 4 voices devoted to each of the 4 parts.In the third cell we ran the hallelujah with 16 speakers again, but this time with the denoiser. 
 - [Hallelujah song by 4 generated speakers with 1 speaker on each part.](/mellotron/custom_results/handel_hallelujah_1_speaker_with_music.wav)
