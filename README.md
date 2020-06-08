@@ -118,9 +118,38 @@ Next we looked to see how our Russian clip would work on a male voice. We chose 
 - [Transferred Russian Speaker to Scandinavian Accent Male Audio](/mellotron/custom_results/malerussian6_2.wav)
 ![Transferred Russian](/mellotron/custom_figures/eminem01.png)
 
+We attempted further analysis with speakers of with different native languages. This is the result with a native Spanish speaker. The results were not as good as the our Russian speakers, but we can still make out the words.
+- [Original Spanish Accent Audio](/mellotron/custom_data/spanish100.wav)
+- [Transferred Female Spanish Speaker to Male American Accent](/mellotron/custom_results/spanish100_synth.wav)
 
+Furthermore we then tried to this style transfer to famous speakers, cartoon characters, and even animals where the audio was transferred to a different voice. However none of the results were clear and sounded like gibberish.Here are some of the results that we played around with to see how they would come out. Several of the results did not make coherent speech and did not work as we expected.
+- [Original Clint Eastwood audio](/mellotron/custom_data/eastwood_lawyers_1.wav)
+- [Transferred Clint Eastwood audio](/mellotron/custom_results/clint_eastwood.wav)
 
+- [Original MLK audio](/mellotron/custom_data/king_war_no_more_1.wav)
+- [Transferred MLK audio](/mellotron/custom_results/MLK.wav)
 
+- [Original Invader Zim audio](/mellotron/custom_data/invader_zim_1.wav)
+- [Transferred Invader Zim audio](/mellotron/custom_results/invader_zim.wav)
+
+- [Original Camel audio](/mellotron/custom_data/camel6_1.wav)
+- [Transferred Camel audio to human](/mellotron/custom_results/camel.wav	)
+
+We thought the following was interest because since Stephen Hawking uses a speech synthesizer to speak we thought that it would be easier to generate good results. However, the results were not very clear
+- [Original Stephen Hawking audio](/mellotron/custom_data/hawking02_1.wav)
+- [Transferred Stephen Hawking audio](mellotron/custom_results/Hawking.wav)
+
+We also played around with the Tacotron2 and Waveglow models to generate iconic quotes in new voices. In particular, we wish to transform famous political quotes to a new, female voice.
+
+The first block has the following quote by John F Kennedy:
+
+"Those who make peaceful revolution impossible will make violent revolution inevitable."
+[JFK Quote](mellotron/custom_results/JKF_quote_female.wav)
+
+The following block has the famous post Pearl Harbor Speech by Franklin D Roosevelt:
+
+"Yesterday, December 7th, 1941 -- a date which will live in infamy -- the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that nation and, at the solicitation of Japan, was still in conversation with its government and its emperor looking toward the maintenance of peace in the Pacific."
+[FDR Quote](mellotron/custom_results/FDR_quote_female.wav)
 
 ## Discussion
 
