@@ -93,10 +93,14 @@ First we generated audio to Handel's Hallelujah as described in the Mellotron co
 - [Hallelujah song by 16 generated speakers with 4 speakers on each part.](/mellotron/custom_results/handel_hallelujah_4_speaker_with_music.wav)
 - [Hallelujah song with 16 speakers denoised](/mellotron/custom_results/denoise_hallelujah.wav)
 
-We sought to use a different input that wasn't used by the Mellotron before, in the Eminem song "Lose Yourself". In the first clip, we displayed the original song without any edits. The second clip is "Lose Yourself" synthesized with a different male speaker using the Mellotron. The third clip was "Lose Yourself" style transferred with a female speaker
+We sought to use a different input that wasn't used by the Mellotron before, in the Eminem song "Lose Yourself". We wanted to test how robust Mellotron's rhythm aligning methods are by using rap with a complicated rhythm. In the first clip, we displayed the original song without any edits. The second clip is "Lose Yourself" synthesized with a different male speaker using the Mellotron. The third clip was "Lose Yourself" style transferred with a female speaker.
 - [Original eminem audio](/mellotron/custom_data/eminem00.wav)
 - [Style Transferred Eminem audio](/mellotron/custom_results/eminem_synth.wav)
 - [Female Style Transferred Eminem audio](/mellotron/custom_results/eminem_female_5s_synth.wav)
+![Eminem Lose Yourself](/mellotron/custom_figures/eminem01.png)
+- The top two figures represent two mel spectograms, one for the original audio and one for the predicted audio after the style transfer. - The Mellotron uses the source mel spectogram in order to correctly align it with the text. That way the pitch and rhythm can also be aligned with the text by being synchronized with the mel spectogram. The pitch and the rhythm are the key components that allow the model to convert a speaking voice to a singing voice, and in our case an accented voice, since with accents, even if you are saying the same text it can still have different pitches/rhythms than someone else’s voice. For example, we can think about the different ways people pronounce a word like tomato.
+- The pitch contour represents the pitch at a certain time. Female voices range from 165 to 255 Hz, while male voices range from 85 to 155 Hz. Based on the where the red line is we can infer what gender voice the source audio is!
+- The rhythm is a visualization that shows how the rhythm aligns with the audio. A linear line shows a 1:1 mapping, an exponential curve shows an increasing speed, and no line at all means that the rhythm was not able to align and the speech returned will not correctly map to the text.
 
 In the following section we played audio using the following and then tried to use Mellotron to change the accent of those original speakers. The other speakers are non-native English speakers  and most of the transferred accents seem to be American.
 
@@ -112,6 +116,10 @@ Next we looked to see how our Russian clip would work on a male voice. We chose 
 
 - [Transferred Russian Speaker to Scandinavian Accent Male Audio](/mellotron/custom_results/malerussian6_2.wav)
 ![Transferred Russian](/mellotron/custom_figures/male_russian_2_spectogram.png)
+
+- The top two figures represent two mel spectograms, one for the original audio and one for the predicted audio after the style transfer. The Mellotron uses the source mel spectogram in order to correctly align it with the text. That way the pitch and rhythm can also be aligned with the text by being synchronized with the mel spectogram. The pitch and the rhythm are the key components that allow the model to convert a speaking voice to a singing voice, and in our case an accented voice, since with accents, even if you are saying the same text it can still have different pitches/rhythms than someone else’s voice. For example, we can think about the different ways people pronounce a word like tomato.
+- The pitch contour represents the pitch at a certain time. Female voices range from 165 to 255 Hz, while male voices range from 85 to 155 Hz. Based on the where the red line is we can infer what gender voice the source audio is!
+- The rhythm is a visualization that shows how the rhythm aligns with the audio. A linear line shows a 1:1 mapping, an exponential curve shows an increasing speed, and no line at all means that the rhythm was not able to align and the speech returned will not correctly map to the text.
 
 We attempted further analysis with speakers of with different native languages. This is the result with a native Spanish speaker. The results were not as good as the our Russian speakers, but we can still make out the words.
 - [Original Spanish Accent Audio](/mellotron/custom_data/spanish100.wav)
