@@ -98,6 +98,28 @@ First we generated audio to Handel's Hallelujah as described in the Mellotron co
 - [Hallelujah song by 16 generated speakers with 4 speakers on each part.](/mellotron/custom_results/handel_hallelujah_4_speaker_with_music.wav)
 - [Hallelujah song with 16 speakers denoised](/mellotron/custom_results/denoise_hallelujah.wav)
 
+We sought to use a different input that wasn't used by the Mellotron before, in the Eminem song "Lose Yourself". In the first clip, we displayed the original song without any edits. The second clip is "Lose Yourself" synthesized with a different male speaker using the Mellotron. The third clip was "Lose Yourself" style transferred with a female speaker
+- [Original eminem audio](/mellotron/custom_data/eminem00.wav)
+- [Style Transferred Eminem audio](/mellotron/custom_results/eminem_synth.wav)
+- [Female Style Transferred Eminem audio]()
+
+In the following section we played audio using the following and then tried to use Mellotron to change the accent of those original speakers. The other speakers are non-native English speakers  and most of the transferred accents seem to be American.
+
+Speech Text:
+
+"Please call Stella.  Ask her to bring these things with her from the store:  Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob.  We also need a small plastic snake and a big toy frog for the kids.  She can scoop these things into three red bags, and we will go meet her Wednesday at the train station."
+- [Original Russian Speaker audio](/mellotron/custom_data/russian6.wav)
+- [Transferred Russian Speaker to another Female Audio](/mellotron/custom_results/russian6_synth.wav)
+
+Next we looked to see how our Russian clip would work on a male voice. We chose 2 male voices: Stewart Wills and Anders Lankford. As we don't have data regarding the location of the speakers, we can only use from their voices that the 2 voices are American and Scandinavian. We can notable differences between the two speakers. 
+- [Transferred Russian Speaker to American Accent Male Audio](/mellotron/custom_results/malerussian6_1.wav)
+![Russian](/mellotron/custom_figures/eminem00.png)
+
+- [Transferred Russian Speaker to Scandinavian Accent Male Audio](/mellotron/custom_results/malerussian6_2.wav)
+![Transferred Russian](/mellotron/custom_figures/eminem01.png)
+
+
+
 
 
 ## Discussion
