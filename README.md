@@ -108,10 +108,10 @@ Speech Text:
 
 Next we looked to see how our Russian clip would work on a male voice. We chose 2 male voices: Stewart Wills and Anders Lankford. As we don't have data regarding the location of the speakers, we can only use from their voices that the 2 voices are American and Scandinavian. We can notable differences between the two speakers. 
 - [Transferred Russian Speaker to American Accent Male Audio](/mellotron/custom_results/malerussian6_1.wav)
-![Russian](/mellotron/custom_figures/male_russian_1_spectogram.png.png)
+![Russian](/mellotron/custom_figures/male_russian_1_spectogram.png)
 
 - [Transferred Russian Speaker to Scandinavian Accent Male Audio](/mellotron/custom_results/malerussian6_2.wav)
-![Transferred Russian](/mellotron/custom_figures/male_russian_2_spectogram.png.png)
+![Transferred Russian](/mellotron/custom_figures/male_russian_2_spectogram.png)
 
 We attempted further analysis with speakers of with different native languages. This is the result with a native Spanish speaker. The results were not as good as the our Russian speakers, but we can still make out the words.
 - [Original Spanish Accent Audio](/mellotron/custom_data/spanish100.wav)
