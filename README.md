@@ -52,14 +52,6 @@ Source 5: [An open source implementation of Neural Voice Cloning with Few Sample
 
 ## Data and Model
 
-(10 points) 
-
-In the final submission, this section will describe both the data you use for this project and any pre-existing models/neural nets. For each you should provide the name, a textual description, and a link. If there is a paper (for neural net) link that as well.
-- Such and such Neural Net. The short description of this neural net. 
-  - [link to code]().
-  - [Title of Paper with Link](). 
-- Training data. Short description of training data including bibliographic info. [link to data]().
-
 ### Model 
 
 For our project we used NVIDIA's Mellotron as our model. Mellotron is a multispeaker voice synthesis modelthat can make a voice emote and sing without emotive or singing training data.
@@ -89,18 +81,7 @@ We gathered data from different sources to test on our model. Some data, like th
 
 ## Code
 
-(20 points)
-
-This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
-
-- code for data acquisition/scraping
-- code for preprocessing
-- training code (if appropriate)
-- generative methods
-
-Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
-
-Because we used [NVIDIA's mellotron](https://github.com/NVIDIA/mellotron) as our code base, we followed the steps on their [README](https://github.com/NVIDIA/mellotron/blob/master/README.md) to set up the pre-trained model. In otder to run the notebooks  the following code should be run ('git clone https://github.com/NVIDIA/waveglow.git') to download the [Waveglow](https://github.com/NVIDIA/waveglow/tree/2fd4e63e2918012f55eac2c8a8e75622a39741be) files. To set up the Mellotron [this Libritts](https://drive.google.com/open?id=1ZesPPyRRKloltRIuRnGZ2LIUEuMSVjkI) file and this [Waveglow file](https://drive.google.com/open?id=1okuUstGoBe_qZ4qUEF8CcwEugHP7GM_b) had to be downloaded and placed in a new directory called 'models'. Data that we used had to be manually downloaded from kaggle or the other sources and potentially changed from mp3 to wav files but we placed those files in our [custom_data](https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group14/tree/master/mellotron/custom_data) directory. 
+TBecause we used [NVIDIA's mellotron](https://github.com/NVIDIA/mellotron) as our code base, we followed the steps on their [README](https://github.com/NVIDIA/mellotron/blob/master/README.md) to set up the pre-trained model. In otder to run the notebooks  the following code should be run ('git clone https://github.com/NVIDIA/waveglow.git') to download the [Waveglow](https://github.com/NVIDIA/waveglow/tree/2fd4e63e2918012f55eac2c8a8e75622a39741be) files. To set up the Mellotron [this Libritts](https://drive.google.com/open?id=1ZesPPyRRKloltRIuRnGZ2LIUEuMSVjkI) file and this [Waveglow file](https://drive.google.com/open?id=1okuUstGoBe_qZ4qUEF8CcwEugHP7GM_b) had to be downloaded and placed in a new directory called 'models'. Data that we used had to be manually downloaded from kaggle or the other sources and potentially changed from mp3 to wav files but we placed those files in our [custom_data](https://github.com/ucsd-dsc-arts/dsc160-final-dsc160-final-group14/tree/master/mellotron/custom_data) directory. 
 
 ### Rhythm and Pitch Transfer
 #### Processing
@@ -148,7 +129,6 @@ The subsequent paragraphs could address questions including:
 
 ## Team Roles
 
-Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 - Luis Diaz: Worked on the website and on writing several parts of the report on the README. Also worked on the MEllotron model and on accent conversion on speakers audio clips in the famous_speaker_inference notebook. 
 - Catherine Hou: Worked on the Mellotron model and on the accent conversion of several speakers, on the eminem music, and work done on the audio-concatenation, audio-trimming, inference-eminem, inference-russian6, and inference-spanish100 notebooks
 - Prithviraj Pahwa: Worked on the Mellotron model and on the accent conversion of several speakers. Also created examples using the tacotron to use text to speech to produce results. Worked on the MellotronAccents&TacotronTTS and MellotronMusic notebooks.
@@ -156,20 +136,10 @@ Provide an account of individual members and their efforts/contributions to the 
 
 ## Technical Notes and Dependencies
 
-Any implementation details or notes we need to repeat your work. 
-- Additional libraries you are using for this project
-- Does this code require other pip packages, software, etc?
-- Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
-
 - To run the project on datahub, all the packages and necessary imports are in the [requirements.txt](/mellotron/requirements.txt)
 that can be installed using 'pip install -r requirements.txt'. To run on google colab all the packages in the requirements.txt still need to be pip installed as well as these two packages: 'unidecode' and 'tensorflow==1.13.1'
 
 ## Reference
-
-All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
-- Papers
-- Repositories
-- Blog posts
 
 - Accent Conversion Using Artificial Neural Networks: https://pdfs.semanticscholar.org/e362/207b67aa1f6dbf5ea2d9e01edeeda70ba15e.pdf
 
