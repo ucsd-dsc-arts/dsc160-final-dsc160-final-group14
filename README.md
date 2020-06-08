@@ -114,7 +114,11 @@ dataholders, speakers and performs the transfer on one of the speakers from the 
 #### Spanish Accent
 [Spanish Inference](mellotron/inference-spanish100.ipynb) This notebooks does the same but for a [spanish accent](mellotron/custom_data/spanish100.wav) on one of the speakers from the dataset. 
 #### Famous Speakers
-[Famous Speaker Inference](mellotron/famous_speaker_inference.ipynb) This notebok applies a style transfer on several famous people, as well as the cartoon character, Invader Zim, and on a camel
+[Famous Speaker Inference](mellotron/famous_speaker_inference.ipynb) This notebook applies a style transfer on several famous people, as well as the cartoon character, Invader Zim, and on a camel
+#### Famous Speakers
+[Mellotron Accents and Tacotron](code/MellotronAccents&TacotronTTS.ipynb) This notebook worked on accent conversion on Russian speakers and also using the [Tacotron model](https://github.com/NVIDIA/tacotron2/tree/fc0cf6a89a47166350b65daa1beaa06979e4cddf) also used by NVIDIA 
+#### Famous Speakers
+[Mellotron Music](code/MellotronMusic.ipynb) This notebook was used when testing the Mellotron on music systhesis on the Hallelujah song on the Mellotron code base
 
 ## Results
 
@@ -147,8 +151,8 @@ The subsequent paragraphs could address questions including:
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 - Luis Diaz: Worked on the website and on writing several parts of the report on the README. Also worked on the MEllotron model and on accent conversion on speakers audio clips in the famous_speaker_inference notebook. 
 - Catherine Hou: Worked on the Mellotron model and on the accent conversion of several speakers, on the eminem music, and work done on the audio-concatenation, audio-trimming, inference-eminem, inference-russian6, and inference-spanish100 notebooks
-- Prithviraj Pahwa: Worked on the Mellotron model and on the accent conversion of several speakers. Also created examples using the tacotron to use text to speech to produce results.
-- David Thierry: Worked on the README and on the discussion of our projects
+- Prithviraj Pahwa: Worked on the Mellotron model and on the accent conversion of several speakers. Also created examples using the tacotron to use text to speech to produce results. Worked on the MellotronAccents&TacotronTTS and MellotronMusic notebooks.
+- David Thierry: Worked on the README and on the discussion of our projects. Also worked on the website
 
 ## Technical Notes and Dependencies
 
@@ -156,6 +160,9 @@ Any implementation details or notes we need to repeat your work.
 - Additional libraries you are using for this project
 - Does this code require other pip packages, software, etc?
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+
+- To run the project on datahub, all the packages and necessary imports are in the [requirements.txt](/mellotron/requirements.txt)
+that can be installed using 'pip install -r requirements.txt'. To run on google colab all the packages in the requirements.txt still need to be pip installed as well as these two packages: 'unidecode' and 'tensorflow==1.13.1'
 
 ## Reference
 
