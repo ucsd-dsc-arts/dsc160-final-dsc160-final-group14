@@ -72,23 +72,19 @@ For our project we used NVIDIA's Mellotron as our model. Mellotron is a multispe
 
 We gathered data from different sources to test on our model. Some data, like the hallelujah music clip, were in the Mellotron github already. Data sources are listed below:
 
-The Speech Accent Archive
-This dataset includes 2140 unique speech samples of the same passage. The individuals who participated and performed the speech recordings come from a total of 177 countries. There are 214 unique native languages encompassed within the countries. We only used a few of these samples.
-https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
+1. The Speech Accent Archive
+  * This dataset includes 2140 unique speech samples of the same passage. The individuals who participated and performed the speech recordings come from a total of 177 countries. There are 214 unique native languages encompassed within the countries. We only used a few of these samples.
+  * https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
 2.  WavSource.com
-
-From here we gathered some clips and audio made by famous people to use as well
- http://www.wavsource.com/people/famous.htm
-
-
+  * From here we gathered some clips and audio made by famous people to use as well
+  * http://www.wavsource.com/people/famous.htm
 3.  MegaWavs.com
 
-audio clips from invader zim were gathered from here
-http://www.megawavs.com/cartoon-sounds.aspx?title=Invader+Zim&qty=28
+  * audio clips from invader zim were gathered from here
+  * http://www.megawavs.com/cartoon-sounds.aspx?title=Invader+Zim&qty=28
 4.  freesoundeffects.com
-
-audio clip for a camel were gathered from here
-https://www.freesoundeffects.com/free-sounds/bears-10017/
+  * audio clip for a camel were gathered from here
+  * https://www.freesoundeffects.com/free-sounds/bears-10017/
 
 
 ## Code
