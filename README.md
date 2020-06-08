@@ -84,7 +84,7 @@ We gathered data from different sources to test on our model. Some data, like th
   * http://www.megawavs.com/cartoon-sounds.aspx?title=Invader+Zim&qty=28
 4.  freesoundeffects.com
   * audio clip for a camel were gathered from here
-  * https://www.freesoundeffects.com/free-sounds/bears-10017/
+  * https://www.freesoundeffects.com/free-sounds/camels-10019/
 
 
 ## Code
@@ -158,3 +158,25 @@ All references to papers, techniques, previous work, repositories you used shoul
 - Papers
 - Repositories
 - Blog posts
+
+- Accent Conversion Using Artificial Neural Networks: https://pdfs.semanticscholar.org/e362/207b67aa1f6dbf5ea2d9e01edeeda70ba15e.pdf
+
+- Self-imitating Feedback Generation Using GAN for Computer-Assisted Pronunciation Training: https://arxiv.org/ftp/arxiv/papers/1904/1904.09407.pdf
+
+- Accent Classification and Neural Accent Transfer: http://cs230.stanford.edu/files_winter_2018/projects/6939642.pdf
+
+- Audio texture synthesis and style transfer: https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/
+
+- An open source implementation of Neural Voice Cloning with Few Samples: https://sforaidl.github.io/Neural-Voice-Cloning-With-Few-Samples/
+
+- NVIDIA's Mellotron: https://github.com/NVIDIA/mellotron
+
+- Mellotron- Multispeaker expressive voice synthesis by conditioning on rhythm, pitch and global style tokens: https://arxiv.org/abs/1910.11997
+
+- Kaggle dataset: https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
+
+- Famous Speaker audio clips: http://www.wavsource.com/people/famous.htm
+
+- Invader Zim audio clips: http://www.megawavs.com/cartoon-sounds.aspx?title=Invader+Zim&qty=28
+
+- Camel audio clip: https://www.freesoundeffects.com/free-sounds/camels-10019/
