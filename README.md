@@ -92,7 +92,12 @@ This section should summarize your results and will embed links to documentation
 - written text as `.pdf`
 
 To view results in a better format where you can play audio, please visit [this Website](https://sway.office.com/DjvzxcODoEgnft4v?ref=Link) where we present our findings. 
-[elephant](/mellotron/custom_data/eminem00.wav)
+
+First we generated audio to Handel's Hallelujah as described in the Mellotron code base with different parameters. In the first cell, there is only 1 voice devoted to each of the 4 parts. In the second cell, there are 4 voices devoted to each of the 4 parts.In the third cell we ran the hallelujah with 16 speakers again, but this time with the denoiser. 
+- [Hallelujah song by 4 generated speakers with 1 speaker on each part.](/mellotron/custom_results/handel_hallelujah_1_speaker_with_music.wav)
+- [Hallelujah song by 16 generated speakers with 4 speakers on each part.](/mellotron/custom_results/handel_hallelujah_4_speaker_with_music.wav)
+- [Hallelujah song with 16 speakers denoised](/mellotron/custom_results/denoise hallelujah.wav)
+
 
 
 ## Discussion
