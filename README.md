@@ -126,11 +126,14 @@ Furthermore we then tried to this style transfer to famous speakers, cartoon cha
 - [Original Clint Eastwood audio](/mellotron/custom_data/eastwood_lawyers_1.wav)
 - [Transferred Clint Eastwood audio](/mellotron/custom_results/clint_eastwood.wav)
 
+
 - [Original MLK audio](/mellotron/custom_data/king_war_no_more_1.wav)
 - [Transferred MLK audio](/mellotron/custom_results/MLK.wav)
 
+
 - [Original Invader Zim audio](/mellotron/custom_data/invader_zim_1.wav)
 - [Transferred Invader Zim audio](/mellotron/custom_results/invader_zim.wav)
+
 
 - [Original Camel audio](/mellotron/custom_data/camel6_1.wav)
 - [Transferred Camel audio to human](/mellotron/custom_results/camel.wav	)
@@ -144,12 +147,12 @@ We also played around with the Tacotron2 and Waveglow models to generate iconic 
 The first block has the following quote by John F Kennedy:
 
 "Those who make peaceful revolution impossible will make violent revolution inevitable."
-[JFK Quote](mellotron/custom_results/JKF_quote_female.wav)
+- [JFK Quote](mellotron/custom_results/JKF_quote_female.wav)
 
 The following block has the famous post Pearl Harbor Speech by Franklin D Roosevelt:
 
 "Yesterday, December 7th, 1941 -- a date which will live in infamy -- the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that nation and, at the solicitation of Japan, was still in conversation with its government and its emperor looking toward the maintenance of peace in the Pacific."
-[FDR Quote](mellotron/custom_results/FDR_quote_female.wav)
+- [FDR Quote](mellotron/custom_results/FDR_quote_female.wav)
 
 ## Discussion
 
