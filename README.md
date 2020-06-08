@@ -79,9 +79,9 @@ dataholders, speakers and performs the transfer on one of the speakers from the 
 [Spanish Inference](mellotron/inference-spanish100.ipynb) This notebooks does the same but for a [spanish accent](mellotron/custom_data/spanish100.wav) on one of the speakers from the dataset. 
 #### Famous Speakers
 [Famous Speaker Inference](mellotron/famous_speaker_inference.ipynb) This notebook applies a style transfer on several famous people, as well as the cartoon character, Invader Zim, and on a camel
-#### Famous Speakers
+#### Mellotron Accents and Tacotron
 [Mellotron Accents and Tacotron](code/MellotronAccents&TacotronTTS.ipynb) This notebook worked on accent conversion on Russian speakers and also using the [Tacotron model](https://github.com/NVIDIA/tacotron2/tree/fc0cf6a89a47166350b65daa1beaa06979e4cddf) also used by NVIDIA 
-#### Famous Speakers
+#### Mellotron Music
 [Mellotron Music](code/MellotronMusic.ipynb) This notebook was used when testing the Mellotron on music systhesis on the Hallelujah song on the Mellotron code base
 
 ## Results
