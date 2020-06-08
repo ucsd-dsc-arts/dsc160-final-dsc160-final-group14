@@ -34,7 +34,7 @@ Source 5: [An open source implementation of Neural Voice Cloning with Few Sample
 
 ### Model 
 
-For our project we used NVIDIA's Mellotron as our model. Mellotron is a multispeaker voice synthesis modelthat can make a voice emote and sing without emotive or singing training data.
+For our project we used NVIDIA's Mellotron as our model. Mellotron is a multispeaker voice synthesis model that can make a voice emote and sing without emotive or singing training data. The GitHub has two pre-trained models (LibriTTS and WaveGlow) that we used to perform our style transfer. The model itself uses outside methods like Denoiser from Waveglow and Tacotron2 while also creating its own plotting / audio processing methods. It requires that each audio file be in .wav format, mono, and at a 24kHz sampling rate. Interestingly, it also uses CMU Pronouncing Dictionary that maps words to its ARPAbet symbol set for speech recognition. That way when the model trains it is able to map a sound to an ARPAbet symbol. There are three key parts of the source audio that the model uses: mel spectogram (which is style transferred into the synthesized audio), the pitch contour (to make the pitch consistent in the synthesized audio), and the rhythm (to evaluate whether the rhythm of the source and synthesized are aligned). Then a denoiser is used to clean up parts of the audio before being returned as a synthesized output.
 
 * [NVIDIA's Mellotron](https://github.com/NVIDIA/mellotron)
 * [Mellotron: Multispeaker expressive voice synthesis by conditioning on rhythm, pitch and global style tokens](https://arxiv.org/abs/1910.11997)
@@ -57,6 +57,9 @@ We gathered data from different sources to test on our model. Some data, like th
 4.  freesoundeffects.com
   * audio clip for a camel were gathered from here
   * https://www.freesoundeffects.com/free-sounds/camels-10019/
+5. LibriTTS dataset
+  * The model we used from Mellotron was trained on this dataset. We only used a sample of 100 English speakers, and of those samples we used speakers that had at least 20 minutes of audio. The format of the data path|text|speakerid. All of the files used can be found under mellotron/filelists.
+  * https://research.google/tools/datasets/libri-tts/
 
 
 ## Code
