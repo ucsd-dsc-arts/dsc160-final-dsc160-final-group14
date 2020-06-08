@@ -60,19 +60,35 @@ In the final submission, this section will describe both the data you use for th
   - [Title of Paper with Link](). 
 - Training data. Short description of training data including bibliographic info. [link to data]().
 
-### Data 
-
-The English Multi-speaker Corpus for Voice Cloning
-- This dataset includes speech data from 109 native English speakers with varying types of vocal accents.  Each of the speakers in this data set was asked to read out 400 sentences where each sentence is from a set of sentences designed to maximize the unique contextual and phonetic of the English language. The speech data in this dataset was recorded with “an omnidirectional head-mounted microphone, 96kHz sampling frequency at 24 bits, and in a Hemi-anechoic chamber of the University of Edinburgh.”
-- https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
-
-The Speech Accent Archive
-- This dataset includes 2140 unique speech samples of the same passage. The individuals who participated and performed the speech recordings come from a total of 177 countries. Of these 174 countries, there are 214 unique native languages encompassed within the countries. It was not mentioned how the audio for each unique sample was recorded, unlike the English Multi-speaker Corpus for Voice Cloning dataset we previously mentioned. 
-- https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning 
-
 ### Model 
 
-TODO
+For our project we used NVIDIA's Mellotron as our model. Mellotron is a multispeaker voice synthesis modelthat can make a voice emote and sing without emotive or singing training data.
+
+* [NVIDIA's Mellotron](https://github.com/NVIDIA/mellotron)
+* [Mellotron: Multispeaker expressive voice synthesis by conditioning on rhythm, pitch and global style tokens](https://arxiv.org/abs/1910.11997)
+
+
+### Data
+
+We gathered data from different sources to test on our model. Some data, like the hallelujah music clip, were in the Mellotron github already. Data sources are listed below:
+
+The Speech Accent Archive
+This dataset includes 2140 unique speech samples of the same passage. The individuals who participated and performed the speech recordings come from a total of 177 countries. There are 214 unique native languages encompassed within the countries. We only used a few of these samples.
+https://www.kaggle.com/mfekadu/english-multispeaker-corpus-for-voice-cloning
+2.  WavSource.com
+
+From here we gathered some clips and audio made by famous people to use as well
+ http://www.wavsource.com/people/famous.htm
+
+
+3.  MegaWavs.com
+
+audio clips from invader zim were gathered from here
+http://www.megawavs.com/cartoon-sounds.aspx?title=Invader+Zim&qty=28
+4.  freesoundeffects.com
+
+audio clip for a camel were gathered from here
+https://www.freesoundeffects.com/free-sounds/bears-10017/
 
 
 ## Code
