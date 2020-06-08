@@ -83,14 +83,6 @@ dataholders, speakers and performs the transfer on one of the speakers from the 
 
 ## Results
 
-(30 points) 
-
-This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: 
-
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
-
 ### To view results in a better format where you can play audio, please visit [this Website](https://sway.office.com/DjvzxcODoEgnft4v?ref=Link) where we present our findings. 
 
 First we generated audio to Handel's Hallelujah as described in the Mellotron code base with different parameters. In the first cell, there is only 1 voice devoted to each of the 4 parts. In the second cell, there are 4 voices devoted to each of the 4 parts.In the third cell we ran the hallelujah with 16 speakers again, but this time with the denoiser. 
