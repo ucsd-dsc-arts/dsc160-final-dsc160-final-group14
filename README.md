@@ -140,6 +140,10 @@ The subsequent paragraphs could address questions including:
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+- Luis Diaz: Worked on the website and on writing several parts of the report on the README. Also worked on the MEllotron model and on accent conversion on speakers audio clips. 
+- Catherine Hou: Worked on the Mellotron model and on the accent conversion of several speakers, on the eminem music, and work done on the audio-concatenation, audio-trimming, inference-eminem, inference-russian6, and inference-spanish100 notebooks
+- Prithviraj Pahwa: Worked on the Mellotron model and on the accent conversion of several speakers. Also created examples using the tacotron to use text to speech to produce results.
+- David Thierry: Worked on the README and on the discussion of our projects
 
 ## Technical Notes and Dependencies
 
